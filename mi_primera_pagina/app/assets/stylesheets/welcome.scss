@@ -1,0 +1,36 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+ul, table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+.tabla-datos {
+  width: 70%;
+  box-shadow: 0 0 10px #aaa;
+  margin: 20px auto;
+}
+
+.tabla-datos th {
+  background-color: #004080;
+  color: white;
+  padding: 10px;
+}
+
+.tabla-datos td {
+  background-color: #f9f9f9;
+  padding: 10px;
+}

@@ -1,0 +1,15 @@
+<h1>Bienvenido</h1>
+<p>Página de inicio</p>
+<p>UNAN-León</p>
+
+<h3>Imprimiendo un array Ruby dentro de una vista</h3>
+<% @dias_semana.each do |dia| %>
+  <%= dia %> <br>
+<% end %>
+
+<h3>Método last</h3>
+<p>Último día: <%= @dias_semana.last %></p>
+
+<h3>Ejercicio</h3>
+<p>Primer día: <%= @dias_semana.first %></p>
+<p>Tamaño del array: <%= @dias_semana.size %></p>
