@@ -1,0 +1,20 @@
+source 'https://rubygems.org'
+ruby '3.3.8'
+
+gem 'rails', '8.0.3'
+gem 'puma', '~> 6.0'
+gem 'mysql2', '~> 0.5'
+gem 'importmap-rails'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 6.0'
+  gem 'shoulda-matchers', '~> 6.0'
+  gem 'capybara', '~> 3.40'
+  gem 'byebug'
+end
+
+group :development do
+  gem 'web-console', '>= 5.0'
+  gem 'listen', '~> 3.7'
+  gem 'spring'
+end
