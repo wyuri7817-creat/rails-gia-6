@@ -1,2 +1,2 @@
-# rails-gia-6
+# rails-gia-
 trabajo rails
